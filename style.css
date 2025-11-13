@@ -1,2 +1,81 @@
+/* Enkel CSS-reset */
 
-body{font-size: 50px;}
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+:root {
+    --russian-violet: #3a015cff;
+    --russian-violet-2: #32004fff;
+    --russian-violet-3: #220135ff;
+    --dark-purple: #190028ff;
+    --dark-purple-2: #11001cff;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tilt prism;
+    background-image: url(./bilder/jing-han-tan-NJGnV_6VwNc-unsplash.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255);
+
+}
+
+h1 {
+    margin-bottom: 78px;
+    text-align: center;
+    font-size: 120px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p.bildtext {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 18px;
+    width: 350px;
+}
+
+div.sheet {
+    width: 800px;
+    margin: auto;
+    background-color: var(--dark-purple);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+div.box {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+img {
+    height: 400px;
+}
